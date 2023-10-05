@@ -1,0 +1,18 @@
+<script>
+    function one(){
+        console.log('one run');
+        console.log('one finish');
+    }
+
+    function two(){
+        console.log('two run');
+        one();
+        console.log('two finish');
+    }
+
+    function three(){
+        console.log();
+        two();
+        console.log('three finish');
+    }
+</script>
