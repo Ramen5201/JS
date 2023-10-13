@@ -1,4 +1,5 @@
-const todoList = [];
+ const todoList = [];
+ window.localStorage.setItem('todoList', )
 
 function addTodo(ev){
 
@@ -36,6 +37,8 @@ function addTodo(ev){
 
         return todoNode;
     }
+
+
 
     //엔터키를 입력했다면 해당코드 실행
     if (!ev.keyCode || ev.keyCode === 13) {
