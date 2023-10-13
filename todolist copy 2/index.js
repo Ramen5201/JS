@@ -29,6 +29,9 @@ function drawTodoList(parent, list){
 
     for (let unit of list) {
         const toDoLi = document.createElement('li');
+        toDoLi.isDone = false;
+        toDoLi.innerHTML = unit.title;
+        parent.appendChild(toDoLi);
     }
 }
 }
